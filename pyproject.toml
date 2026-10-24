@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meshsos"
+version = "0.1.0"
+description = "AI-compressed distress messaging over a LoRa mesh: simulator, 3D viewer and ESP32 codec"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pillow"]
+
+[tool.setuptools]
+packages = ["meshsos"]
