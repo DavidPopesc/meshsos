@@ -6,3 +6,6 @@ runs/
 docs/frames/
 .DS_Store
 .claude/
+hardware/backups/
+hardware/firmware/
+hardware/secrets/
